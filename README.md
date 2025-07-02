@@ -46,14 +46,16 @@ ecommerce-ai-chatbot-llama3/
 
 ## 🛠️ Setup Instructions (Step-by-Step)
 
-### 1. Clone the Repo
-
-git clone https://github.com/Shuaibiqbal/ecommerce-ai-chatbot-llama3.git
-cd ecommerce-ai-chatbot-llama3
+```bash
+git clone https://github.com/YOUR_USERNAME/ecommerce_chatbot.git
+cd ecommerce_chatbot
 
 ### 2. Create Virtual Environment
 
 python3 -m venv venv
 source venv/bin/activate      # For Windows: venv\Scripts\activate
 
+3. Install Dependencies
+bash
+pip install -r requirements.txt
 

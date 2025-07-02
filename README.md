@@ -47,15 +47,38 @@ ecommerce-ai-chatbot-llama3/
 ## 🛠️ Setup Instructions (Step-by-Step)
 
 ```bash
+### 1. Clone the Repo
+
 git clone https://github.com/YOUR_USERNAME/ecommerce_chatbot.git
 cd ecommerce_chatbot
 
-### 2. Create Virtual Environment
-bash
+2. Create Virtual Environment
+
 python3 -m venv venv
 source venv/bin/activate      # For Windows: venv\Scripts\activate
 
 3. Install Dependencies
-bash
+
 pip install -r requirements.txt
 
+🤖 Setup LLaMA 3 with Ollama
+
+4. Install Ollama
+
+➡️ Download from: https://ollama.com/download
+Install as per your OS (Windows, Mac, Linux)
+
+5. Start Ollama Server
+
+ollama serve
+ollama run llama3
+
+6. Run LLaMA 3 Model
+
+ollama run llama3
+
+7. 🚀 Run the Chatbot (Web App)
+
+export FLASK_APP=app.py
+export FLASK_ENV=development
+flask run

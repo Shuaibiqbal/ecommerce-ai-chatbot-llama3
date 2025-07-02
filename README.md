@@ -47,7 +47,7 @@ ecommerce-ai-chatbot-llama3/
 ## 🛠️ Setup Instructions (Step-by-Step)
 
 ```bash
-### 1. Clone the Repo
+1. Clone the Repo
 
 git clone https://github.com/YOUR_USERNAME/ecommerce_chatbot.git
 cd ecommerce_chatbot

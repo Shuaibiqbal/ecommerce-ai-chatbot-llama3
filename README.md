@@ -51,7 +51,7 @@ git clone https://github.com/YOUR_USERNAME/ecommerce_chatbot.git
 cd ecommerce_chatbot
 
 ### 2. Create Virtual Environment
-
+bash
 python3 -m venv venv
 source venv/bin/activate      # For Windows: venv\Scripts\activate
 

@@ -51,5 +51,8 @@ ecommerce-ai-chatbot-llama3/
 ```bash
 git clone https://github.com/Shuaibiqbal/ecommerce-ai-chatbot-llama3.git
 cd ecommerce-ai-chatbot-llama3
+### 2. Create Virtual Environment
+python3 -m venv venv
+source venv/bin/activate      # For Windows: venv\Scripts\activate
 
 
